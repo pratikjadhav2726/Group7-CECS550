@@ -3,7 +3,8 @@ Merchants often gain many new customers through promotions, but a significant po
 
 In this project, you are provided a dataset with information on promotional shopping event from e-commerce platform. Your task is to design a system which will increase the ROI (in other words, you need to predict the probability that these new buyers would purchase items from the same merchants again within 6 months), reduce promotional cost, and identify one-time buyers. 
 
-Task Division
+Task Division.
+
 Data Preparation and Visualization: Pratik/Diksha
 Feature Engineering and Ranking: Pawan/Sudarshan/Anthony
 PCA: Pratik/Pawan
