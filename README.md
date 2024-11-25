@@ -1,14 +1,61 @@
-# Repeat Customer Prediction
-Merchants often gain many new customers through promotions, but a significant portion of these customers are only interested in one-time deals. Therefore, the impact of promotions on long-term sales may be limited. To maximize return on investment (ROI) and reduce promotion costs, it is crucial for merchants to distinguish between one-time buyers and potential loyal customers and focus their efforts on converting the latter group.
+# Repeat Buyer Prediction for E-Commerce 🛒📊
 
-In this project, you are provided a dataset with information on promotional shopping events from an e-commerce platform. Your task is to design a system that will increase the ROI (in other words, you need to predict the probability that these new buyers would purchase items from the same merchants again within 6 months), reduce promotional costs, and identify one-time buyers. 
+This project aims to predict repeat buyers for e-commerce platforms using a novel hybrid recommendation system. By combining **Deep Neural Network (DNN) embeddings** with **K-Nearest Neighbors (KNN)**, the system identifies similar customers in embedding space, achieving **96% accuracy** on Alibaba’s dataset. The solution directly aids in improving e-commerce marketing strategies and customer retention.
 
-Task Division.
+---
 
-Data Preparation and Visualization: Pratik/Diksha
-Feature Engineering and Ranking: Pawan/Sudarshan/Anthony
-PCA: Pratik/Pavan
-Models: Diksha/Pratik
-Model Evaluation: Pavan/Anthony
-PPT presentation : Diksha/Pavan
-Report: Sudarshan/Pratik/Anthony
+## 🚀 Features
+
+- **Hybrid Model Architecture:**
+  - Utilizes DNN embeddings for customer representation.
+  - KNN applied in the embedding space to find similar customers and predict repeat buyers.
+
+- **Actionable Insights:**
+  - Offers insights into customer behavior to drive e-commerce marketing strategies.
+  - Helps optimize customer retention efforts with personalized recommendations.
+
+- **Performance Monitoring:**
+  - Integrated **automated evaluation metrics** for real-time performance tracking.
+  - Leveraged **MLFlow** for experiment tracking and ensuring reproducibility.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Machine Learning Frameworks:**
+  - TensorFlow/PyTorch (for DNN embeddings)
+  - Scikit-learn (for KNN implementation)
+- **Data Analytics Tools:**
+  - Pandas, NumPy (data preprocessing and feature engineering)
+- **Experiment Tracking:**
+  - MLFlow (for tracking experiments and model versions)
+- **Visualization:**
+  - Matplotlib, Seaborn (for analyzing results)
+
+---
+
+## 📊 Dataset
+
+- **Alibaba's E-Commerce Dataset:**
+  - Large-scale dataset of customer transactions, containing features like purchase history, demographics, and product preferences.
+
+---
+
+---
+
+## 📋 Getting Started
+
+### Prerequisites
+
+- **Python:** v3.8+
+- **Libraries:** 
+  - TensorFlow/PyTorch, Scikit-learn, MLFlow, Pandas, NumPy, Matplotlib, Seaborn
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/Repeat-Buyer-Prediction.git
+   cd Repeat-Buyer-Prediction
+
+
